@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="JAVA,WEB,读书," />
 
 
 
@@ -80,19 +80,89 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="web 请求过程
+DNS解析过程
+CDN作用:镜像+缓存+动态负载均衡
+
+
+IO流
+
+磁盘IO机制(用户空间和内核空间,用户缓存与高速页缓存)
+标准IO
+直接IO,不经过高速页缓存
+同步问价访问
+异步文件访问
+内存映射方式，将内存的某段区域与磁盘文件某段区域关联起来
+
+
+同步和阻塞
+
+
+java编译过程
+以字节的方式读取源文件；
+词法分析，构建Token流；
+语法分析，构造抽象语法树；
+语义分析，">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2016/04/29/hello-world/index.html">
+<meta property="og:title" content="深入分析JAVA WEB技术内幕读书提纲">
+<meta property="og:url" content="http://yoursite.com/2016/08/01/JAVA WEB阅读要点/index.html">
 <meta property="og:site_name" content="Chen’s Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-04-28T16:03:21.000Z">
+<meta property="og:description" content="web 请求过程
+DNS解析过程
+CDN作用:镜像+缓存+动态负载均衡
+
+
+IO流
+
+磁盘IO机制(用户空间和内核空间,用户缓存与高速页缓存)
+标准IO
+直接IO,不经过高速页缓存
+同步问价访问
+异步文件访问
+内存映射方式，将内存的某段区域与磁盘文件某段区域关联起来
+
+
+同步和阻塞
+
+
+java编译过程
+以字节的方式读取源文件；
+词法分析，构建Token流；
+语法分析，构造抽象语法树；
+语义分析，">
+<meta property="og:image" content="http://chuantu.biz/t5/24/1470037124x3738746523.png">
+<meta property="og:image" content="http://chuantu.biz/t5/24/1470037200x3738746523.png">
+<meta property="og:image" content="http://chuantu.biz/t5/24/1470037809x3738746523.png">
+<meta property="og:image" content="http://chuantu.biz/t5/24/1470039966x3738746523.png">
+<meta property="og:image" content="http://chuantu.biz/t5/24/1470041196x3738746523.png">
+<meta property="og:image" content="http://img.my.csdn.net/uploads/201211/27/1354020417_5176.jpg">
+<meta property="og:updated_time" content="2016-08-01T09:57:30.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="深入分析JAVA WEB技术内幕读书提纲">
+<meta name="twitter:description" content="web 请求过程
+DNS解析过程
+CDN作用:镜像+缓存+动态负载均衡
+
+
+IO流
+
+磁盘IO机制(用户空间和内核空间,用户缓存与高速页缓存)
+标准IO
+直接IO,不经过高速页缓存
+同步问价访问
+异步文件访问
+内存映射方式，将内存的某段区域与磁盘文件某段区域关联起来
+
+
+同步和阻塞
+
+
+java编译过程
+以字节的方式读取源文件；
+词法分析，构建Token流；
+语法分析，构造抽象语法树；
+语义分析，">
+<meta name="twitter:image" content="http://chuantu.biz/t5/24/1470037124x3738746523.png">
 
 
 
@@ -110,7 +180,7 @@ Quick">
   };
 </script>
 
-  <title> Hello World | Chen’s Blog </title>
+  <title> 深入分析JAVA WEB技术内幕读书提纲 | Chen’s Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -250,7 +320,7 @@ Quick">
             
             
               
-                Hello World
+                深入分析JAVA WEB技术内幕读书提纲
               
             
           </h1>
@@ -262,11 +332,30 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-29T00:03:21+08:00" content="2016-04-28">
-              2016-04-28
+            <time itemprop="dateCreated" datetime="2016-08-01T15:46:39+08:00" content="2016-08-01">
+              2016-08-01
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/总结/" itemprop="url" rel="index">
+                    <span itemprop="name">总结</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
@@ -290,15 +379,35 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <h2 id="web-请求过程"><a href="#web-请求过程" class="headerlink" title="web 请求过程"></a>web 请求过程</h2><ul>
+<li>DNS解析过程<br><img src="http://chuantu.biz/t5/24/1470037124x3738746523.png" alt=""></li>
+<li>CDN<br>作用:镜像+缓存+动态负载均衡<br><img src="http://chuantu.biz/t5/24/1470037200x3738746523.png" alt=""></li>
+</ul>
+<hr>
+<h2 id="IO流"><a href="#IO流" class="headerlink" title="IO流"></a>IO流</h2><ul>
+<li><img src="http://chuantu.biz/t5/24/1470037809x3738746523.png" alt=""></li>
+<li>磁盘IO机制(用户空间和内核空间,用户缓存与高速页缓存)<ol>
+<li>标准IO</li>
+<li>直接IO,不经过高速页缓存</li>
+<li>同步问价访问</li>
+<li>异步文件访问</li>
+<li>内存映射方式，将内存的某段区域与磁盘文件某段区域关联起来</li>
+</ol>
+</li>
+<li>同步和阻塞<br><img src="http://chuantu.biz/t5/24/1470039966x3738746523.png" alt=""></li>
+</ul>
+<hr>
+<h2 id="java编译过程"><a href="#java编译过程" class="headerlink" title="java编译过程"></a>java编译过程</h2><ol>
+<li>以字节的方式读取源文件；</li>
+<li><strong>词法分析</strong>，构建Token流；</li>
+<li><strong>语法分析</strong>，构造抽象语法树；</li>
+<li><strong>语义分析</strong>，将复杂语法解析为简单语法；</li>
+<li>通过字节码生成器生成字节码；<br><img src="http://chuantu.biz/t5/24/1470041196x3738746523.png" alt=""></li>
+</ol>
+<h2 id="java异常"><a href="#java异常" class="headerlink" title="java异常"></a>java异常</h2><ul>
+<li>Java的异常(包括Exception和Error)分为可查的异常（checked exceptions）和不可查的异常（unchecked exceptions),层次结构图如下。<br><img src="http://img.my.csdn.net/uploads/201211/27/1354020417_5176.jpg" alt=""></li>
+<li><strong>详细可参考博客<a href="http://blog.csdn.net/hguisu/article/details/6155636" target="_blank" rel="external">深入理解java异常处理机制</a></strong>,写的非常详细</li>
+</ul>
 
       
     </div>
@@ -317,18 +426,24 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/JAVA-WEB-读书/" rel="tag">#JAVA,WEB,读书</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/04/29/TCP和UDP的简单对比/" rel="next" title="TCP和UDP的简单对比">
+                <i class="fa fa-chevron-left"></i> TCP和UDP的简单对比
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/04/29/TCP和UDP的简单对比/" rel="prev" title="TCP和UDP的简单对比">
-                TCP和UDP的简单对比 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -453,7 +568,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#web-请求过程"><span class="nav-number">1.</span> <span class="nav-text">web 请求过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#IO流"><span class="nav-number">2.</span> <span class="nav-text">IO流</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#java编译过程"><span class="nav-number">3.</span> <span class="nav-text">java编译过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#java异常"><span class="nav-number">4.</span> <span class="nav-text">java异常</span></a></li></ol></div>
             
           </div>
         </section>
